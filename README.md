@@ -34,15 +34,15 @@ The stratrgy to choose which group of customers and which row.
 
 #### 1. First come, first serve + FirstFit
 
-**Customers**: The requests are processed in the same order as which they have arrived i.e. on first come first serve basis.Groups earliest in the reservation list get the better rows.
+- **Customers**: The requests are processed in the same order as which they have arrived i.e. on first come first serve basis.Groups earliest in the reservation list get the better rows.
 
-**Row**: Find the furthest row which could satisfy their seat demand for each request.
+- **Row**: Find the furthest row which could satisfy their seat demand for each request.
 
 #### 2. Largest customer serve first + WorstFit
 
-**Customers**: Because of the public safety policy, a buffer of three sears or one row is requested. For better theater space utilization, we could always satisfy customers with largest group size.
+- **Customers**: Because of the public safety policy, a buffer of three sears or one row is requested. For better theater space utilization, we could always satisfy customers with largest group size.
 
-**Row**: Find the emptiest row to store group of customers(Use heap to implement).
+- **Row**: Find the emptiest row to store group of customers(Use heap to implement).
 
 ### Execution Instructions
 
