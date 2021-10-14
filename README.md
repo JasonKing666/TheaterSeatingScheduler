@@ -14,15 +14,15 @@ Design and write a seat assignment program to maximize both customer satisficati
 
 1. Back-row seats are preferable to front-row seats
 
-   1. Reservations with top most priority will have the seats farthest from the screen for better visibility 
+   - Reservations with top priority will have the seats farthest from the screen for better visibility 
 
 2. The customers don't mind about how close they are to the center
 
-   1. To maximize the number of customers in the theater, customers have to be placed the edges first to reduce the amount of buffer seats.
+   - Customers have to be placed the edges first to reduce the amount of buffer seats.
 
 3. The customers are not willing to be placed separately
 
-   1. The top most priority for the customers is that each member of the group sits together. In case when this is not possible, only then they agree to split in different rows.
+   - Only when it is not possible and customers agree to split,  then we process it as two seperate requests
 
 ### WorkFlow
 
